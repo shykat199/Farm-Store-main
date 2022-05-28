@@ -1,0 +1,17 @@
+RewriteEngine on
+  
+RewriteRule ^Signup  registration.php [NC,L]
+RewriteRule ^Login  login.php [NC,L]
+RewriteRule ^Homepage  index.php [NC,L]
+RewriteRule ^BilligAddress  userbillingaddress.php [NC,L]
+RewriteRule ^ChangeBilligAddress  updatebillingaddressinfo.php [NC,L]
+RewriteRule ^ChangePassword  passwordsettings.php [NC,L]
+RewriteRule ^Profile  userprofile.php [NC,L]
+RewriteRule ^Product  viewProduct.php [NC,L]
+RewriteRule ^ChangeProfile  updateuserProfile.php [NC,L]
+RewriteRule ^Catagory  catagories.php [NC,L] 
+RewriteRule ^SubCatagory  subcatagories.php [NC,L]
+RewriteRule ^Cart  cart.php [NC,L]
+RewriteRule ^Checkout  checkout.php [NC,L]
+RewriteRule ^TrackOrder  trackorder.php [NC,L]
+RewriteRule ^ContactUs  contact.php [NC,L]

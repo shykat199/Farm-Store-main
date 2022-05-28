@@ -1,0 +1,16 @@
+{
+	"keywords" : [
+		"d"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"Farm Store\\Farm Store\\" : "src"
+		}
+	},
+	"name" : "Farm Store/Farm Store",
+	"description" : "ncvnv",
+	"license" : "fffsdadew",
+	"require" : {
+		"php" : ">=7.4"
+	}
+}
